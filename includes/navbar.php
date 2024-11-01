@@ -1,6 +1,6 @@
 <div class="navbar">
     <div class="navbar-logo">
-        <i class="fa-solid fa-wifi"></i>
+        <a href="home.php"><i class="fa-solid fa-wifi"></i></a>
     </div>
     <div class="links-navbar">
         <ul>
