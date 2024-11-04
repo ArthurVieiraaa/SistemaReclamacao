@@ -12,10 +12,9 @@
             </div>
             <div class="menu-hamburger">
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Sobre</a></li>
-                    <li><a href="#">Serviços</a></li>
-                    <li><a href="#">Contato</a></li>
+                    <li><a href="home.php">Home</a></li>
+                    <li><a href="servicos.php">Serviços</a></li>
+                    <li><a href="contato.php">Contato</a></li>
                 </ul>
             </div>
         </div>
@@ -34,12 +33,12 @@
             <div class="card-info">
                 <h1>Informação</h1>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                <div class="btn-info"><a href="#">Ver Informações</a></div>
+                <div class="btn-info"><a href="informacao.php">Ver Informações</a></div>
             </div>
             <div class="card-sugestao">
                 <h1>Sugestão</h1>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                <div class="btn-sugestao"><a href="#">Dar Sugestão</a></div>
+                <div class="btn-sugestao"><a href="sugestao.php">Dar Sugestão</a></div>
             </div>
         </div>
     </div>

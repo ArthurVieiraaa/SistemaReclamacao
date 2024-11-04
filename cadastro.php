@@ -23,7 +23,7 @@
                 <input type="text" name="email" placeholder="Digite seu Email..." required>
                 <div class="btn-cadastro"><button type="submit">Cadastrar-se</button></div>
                 <div class="links">
-                    <a href="index.php">Logar</a>
+                    <a href="login.php">Logar</a>
                 </div>
             </form>
         </div>

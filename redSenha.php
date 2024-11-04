@@ -19,7 +19,7 @@
                 <input type="password" name="password" placeholder="Confirme sua Nova Senha..."  required>
                 <div class="btn-senha"><button type="submit">Salvar</button></div>
                 <div class="links">
-                    <a href="index.php">Logar</a>
+                    <a href="login.php">Logar</a>
                 </div>
             </form>
         </div>
