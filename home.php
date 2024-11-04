@@ -1,5 +1,5 @@
 <?php
-    $title = "HOME";
+    $title = "INFORMAÇÕES DO USUÁRIO";
     include "includes/header.php";
 ?>
 
@@ -7,7 +7,7 @@
     <div class="home-navbar">
         <div class="home-navbar-content">
             <div class="logo">
-                <i class="fa-solid fa-wifi"></i>
+                <a href="home.php"><i class="fa-solid fa-wifi"></i></a>
                 <h1>Home</h1>
             </div>
             <div class="menu-hamburger">

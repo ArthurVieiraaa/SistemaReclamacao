@@ -1174,6 +1174,7 @@ h1 {
   width: 90%;
   padding: 18px;
   margin-left: 40px;
+  font-size: 16px;
   border-radius: 50px;
   border: none;
   outline: none;
@@ -1197,6 +1198,14 @@ h1 {
   font-size: 16px;
   font-weight: 500;
   cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn-duvida button:hover {
+  background-color: #4a6cb7;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transform: scale(1.1);
+  transition: all 0.3s;
 }
 
 .index {
