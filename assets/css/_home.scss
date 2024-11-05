@@ -29,6 +29,7 @@
     display: flex;
     justify-content: start;
     align-items: center;
+    margin-left: 70px;
 }
 
 .logo i{
@@ -45,12 +46,90 @@
     margin-bottom: 20px;
 }
 
-.menu-hamburger{
-    width: 20%;
-    height: 100px;
-    display: flex;
-    justify-content: end;
-    align-items: center;
+#menu{
+    width: 35px;
+    height: 30px;
+    margin: 30px 0 20px 20px;
+    cursor: pointer;
+}
+
+.bar{
+    height: 5px;
+    width: 100%;
+    background-color: #ffffff;
+    display: block;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+#bar1{
+    transform: translateY(-4px);
+}
+#bar3{
+    transform: translateY(4px);
+}
+
+.nav li a{
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.nav li a:hover{
+    font-weight: bold;
+}
+
+.nav li{
+    list-style: none;
+    padding: 16px 0;
+}
+
+.nav{
+    padding: 0;
+    margin: 20px;
+    transition: all 0.3s ease;
+    display: none;
+}
+
+.menu-bg, #menu-bar{
+    top: 0;
+    left: 0;
+}
+
+.menu-bg{
+    z-index: 1;
+    width: 0;
+    height: 0;
+    margin: 30px 0 20px 20px;
+    background: radial-gradient(circle, #6189E0, #6189E0);
+    border-radius: 50%;
+    transition:  0.3s ease;
+}
+
+#menu-bar{
+    z-index: 2;
+}
+
+.change-bg{
+    width: 550px;
+    height: 540px;
+    transform: translate(-60%,-30%);
+}
+
+.change .bar{
+    background-color: white;
+}
+.change #bar1{
+    transform: translateY(4px) rotateZ(-45deg);
+}
+.change #bar2{
+    opacity: 0;
+}
+.change #bar3{
+    transform: translateY(-6px) rotateZ(45deg);
+}
+.change{
+    display: block;
 }
 
 .home-content{

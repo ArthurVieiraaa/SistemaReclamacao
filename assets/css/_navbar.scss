@@ -56,6 +56,14 @@
     margin-right: 45px;
 }
 
+.user-info a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    text-decoration: none;
+}
+
 .user-background{
     display: flex;
     justify-content: center;

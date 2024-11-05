@@ -13,14 +13,16 @@
         </ul>
     </div>
     <div class="user-info">
-        <div class="user-background">
-            <div class="user-icone">
-                <i class="fa-solid fa-user"></i>
+        <a href="infoUsuario.php">
+            <div class="user-background">
+                <div class="user-icone">
+                    <i class="fa-solid fa-user"></i>
+                </div>
             </div>
-        </div>
-        <div class="user-name">
-            <h1>Usuário</h1>
-            <h3>Cargo</h3>
-        </div>
+            <div class="user-name">
+                <h1>Usuário</h1>
+                <h3>Cargo</h3>
+            </div>
+        </a>
     </div>
 </div>

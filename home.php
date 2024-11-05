@@ -11,11 +11,20 @@
                 <h1>Home</h1>
             </div>
             <div class="menu-hamburger">
-                <ul>
-                    <li><a href="home.php">Home</a></li>
-                    <li><a href="servicos.php">Serviços</a></li>
-                    <li><a href="contato.php">Contato</a></li>
-                </ul>
+                <div id="menu-bar">
+                    <div id="menu" onclick="Menu()">
+                        <div id="bar1" class="bar"></div>
+                        <div id="bar2" class="bar"></div>
+                        <div id="bar3" class="bar"></div>
+                    </div>
+                    <ul class="nav" id="nav">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Sugestão</a></li>
+                        <li><a href="#">Informações</a></li>
+                        <li><a href="#">Denuncias</a></li>
+                    </ul>
+                </div>
+                <div class="menu-bg" id="menu-bg"></div>
             </div>
         </div>
     </div>
