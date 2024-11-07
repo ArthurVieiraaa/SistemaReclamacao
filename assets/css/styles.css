@@ -434,7 +434,7 @@ h1 {
   align-items: center;
 }
 
-.btn-logar button {
+.btn-logar button, .btn-logar #button-cad {
   width: 40%;
   padding: 18px;
   margin: 10px 0;
