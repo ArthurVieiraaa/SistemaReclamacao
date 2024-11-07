@@ -10,22 +10,23 @@
                 <a href="home.php"><i class="fa-solid fa-wifi"></i></a>
                 <h1>Home</h1>
             </div>
-            <div class="menu-hamburger">
-                <div id="menu-bar">
-                    <div id="menu" onclick="Menu()">
-                        <div id="bar1" class="bar"></div>
-                        <div id="bar2" class="bar"></div>
-                        <div id="bar3" class="bar"></div>
-                    </div>
-                    <ul class="nav" id="nav">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Sugestão</a></li>
-                        <li><a href="#">Informações</a></li>
-                        <li><a href="#">Denuncias</a></li>
-                    </ul>
-                </div>
-                <div class="menu-bg" id="menu-bg"></div>
+            <div class="off-screen-menu">
+                <ul>
+                    <li>
+                        <a href="home.php">Home</a>
+                        <a href="sugestao.php">Sugestões</a>
+                        <a href="informacao.php">Informações</a>
+                        <a href="denuncias.php">Denuncias</a>
+                    </li>
+                </ul>
             </div>
+            <div class="nav">
+                <div class="ham-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>  
         </div>
     </div>
     <div class="home-content">
